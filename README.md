@@ -2,9 +2,7 @@
 This repository provides a libinput gesture configuration file that emulates common Windows gestures on Linux systems. The configuration file allows users to perform touchpad or touchscreen gestures that closely resemble the gestures used in Windows.
 <h1 align="center">Windows-like Gestures for libinput</h1>
 
-<p align="center">
-  <img src="gesture.png" alt="Gesture Example" width="600">
-</p>
+
 
 <p align="center">
   <em>Emulate common Windows gestures on Linux</em>
@@ -27,12 +25,15 @@ This repository provides a libinput gesture configuration file that allows users
 ## Usage
 
 1. Clone or download the repository.
-2. Copy the `windows-gestures.conf` file to the appropriate location on your system:
+2. Copy the `libinput-gestures.conf` file to the appropriate location on your system:
    - For system-wide configuration: `/etc/libinput-gestures.conf`
    - For user-specific configuration: `~/.config/libinput-gestures.conf`
 3. If required, install the `xdotool` package on your system to enable the execution of actions.
 4. Restart the libinput-gestures service or log out and log back in to apply the changes.
-5. Enjoy Windows-like gestures on your Linux system!
+   'libinput-gestures-setup restart'
+6. Enjoy Windows-like gestures on your Linux system!
+7. alternative way of  doing is that copy the code of my conf file and paste in your system and restart the system. enjoy
+
 
 ## Gesture Actions
 
@@ -57,5 +58,5 @@ Contributions to improve or expand the gesture mappings are welcome! If you have
 ---
 
 <p align="center">
-  Made with :heart: by Your Name
+  Made with :heart: Perman
 </p>
