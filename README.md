@@ -15,6 +15,7 @@ This repository provides a libinput gesture configuration file that emulates com
 - [Usage](#usage)
 - [Gesture Actions](#gesture-actions)
 - [Contributions](#contributions)
+- [Optional](#Optional)
 
 ---
 
@@ -60,3 +61,13 @@ Contributions to improve or expand the gesture mappings are welcome! If you have
 <p align="center">
   Made with :heart: Perman
 </p>
+
+##Optional
+-** this is following command to run a service of libinput gestures.
+```bash
+sudo apt-get install libinput-tools
+```bash 
+xinput list
+```bash 
+libinput-gestures-setup start
+
