@@ -1,4 +1,4 @@
-# kalipanel
+# kali-linux gestures for toucpad
 This repository provides a libinput gesture configuration file that emulates common Windows gestures on Linux systems. The configuration file allows users to perform touchpad or touchscreen gestures that closely resemble the gestures used in Windows.
 <h1 align="center">Windows-like Gestures for libinput</h1>
 
