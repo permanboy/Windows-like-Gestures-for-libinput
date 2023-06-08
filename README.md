@@ -63,7 +63,7 @@ Contributions to improve or expand the gesture mappings are welcome! If you have
 </p>
 
 ## Optional
--** this is following command to run a service of libinput gestures.**
+**this is following command to run a service of libinput gestures.**
 ```bash
 sudo apt-get install libinput-tools &&
 xinput list
