@@ -62,12 +62,11 @@ Contributions to improve or expand the gesture mappings are welcome! If you have
   Made with :heart: Perman
 </p>
 
-##Optional
--** this is following command to run a service of libinput gestures.
+## Optional
+-** this is following command to run a service of libinput gestures.**
 ```bash
-sudo apt-get install libinput-tools
-```bash 
+sudo apt-get install libinput-tools &&
 xinput list
-```bash 
+&&
 libinput-gestures-setup start
 
